@@ -39,4 +39,6 @@ container.addEventListener("click", (event) => {
         instance.close();
       }
     });
+  
+  container.removeEventListener("keydown")  
 });
